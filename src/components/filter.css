@@ -1,0 +1,10 @@
+select{
+    width: 120px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 20px;
+    outline: none;
+    border: none;
+    background-color: rgb(208, 203, 203);
+    color: #000;
+}

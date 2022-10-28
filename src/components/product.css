@@ -1,0 +1,37 @@
+.shop-container{
+    width: 100%;
+    position: relative;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 20px;
+    /* border: 1px solid red; */
+    margin: auto;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.shop{
+    width: 300px;
+    height: 270px;
+    /* border: 1px solid red; */
+    background-color:#fff;
+    box-shadow: 0px 0px 3px silver;
+    border-radius: 4px; 
+    padding: 20px;
+    line-height: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.shop a{
+    text-decoration: none;
+    color: rgb(48, 191, 204);
+    cursor: pointer;
+}
+
+.shop a:hover{
+    color: #000;
+    transition:all 0.5s ease-in;
+}
